@@ -8,6 +8,10 @@ bindkey "^[m" copy-prev-shell-word
 ## jobs
 setopt long_list_jobs
 
+## editor
+export EDITOR=nano
+export VISUAL=nano
+
 ## pager
 export PAGER=less
 export LC_CTYPE=$LANG
