@@ -1,3 +1,10 @@
+# basic settings
+set smooth
+set autoindent
+set tabsize 4
+set nowrap
+set softwrap
+
 # syntax highlighting
 include ~/.nano/syntax/apacheconf.nanorc
 include ~/.nano/syntax/asciidoc.nanorc
