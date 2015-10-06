@@ -1,0 +1,5 @@
+# nano syntax highlighting
+[submodule ".nano/syntax"]
+	path = .nano/syntax
+	url = https://github.com/scopatz/nanorc.git
+
