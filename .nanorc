@@ -4,7 +4,7 @@ set autoindent
 set tabsize 4
 set nowrap
 set softwrap
-set const
+set constantshow
 
 # syntax highlighting
 include ~/.nano/syntax/apacheconf.nanorc
