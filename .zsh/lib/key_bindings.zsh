@@ -9,16 +9,16 @@ bindkey "^[[5~" up-line-or-history
 bindkey "^[[6~" down-line-or-history
 
 # make search up and down work, so partially type and hit up/down to find relevant stuff
-bindkey '^[[A' up-line-or-search
-bindkey '^[[B' down-line-or-search
+bindkey '^[[A' history-beginning-search-backward  # arrow-up
+bindkey '^[[B' history-beginning-search-forward   # arrow-down
 
-bindkey "^[[H" beginning-of-line
+bindkey "^[[H" beginning-of-line        # home
 bindkey "^[[1~" beginning-of-line
 bindkey "^[OH" beginning-of-line
 bindkey "^[[F"  end-of-line
 bindkey "^[[4~" end-of-line
 bindkey "^[OF" end-of-line
-bindkey ' ' magic-space    # also do history expansion on space
+bindkey ' ' magic-space                 # also do history expansion on space
 
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
