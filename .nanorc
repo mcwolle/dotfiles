@@ -6,4 +6,4 @@ set softwrap
 set constantshow
 
 # syntax highlighting
-include ~/.nano/syntax/*.nanorc
+include ~/.nano-syntax/*.nanorc
